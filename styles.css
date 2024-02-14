@@ -1,0 +1,43 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    background-color: whitesmoke;
+    /* always on the main axis (vertical) 
+    justify-content: space-between;
+    /* always on the cross axis (horizontal)  */
+    /* align-items: center; */ */
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    color: white;
+    margin: 10px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .item:nth-of-type(1){
+    align-self: start;
+}
+
+.item:nth-of-type(2){
+    align-self: center;
+}
+
+.item:nth-of-type(3){
+    align-self: end;
+} */
+
